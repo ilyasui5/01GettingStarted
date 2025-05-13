@@ -10,3 +10,18 @@ Content-Type: application/json
       "locagtion": "Hyd",
       "designation": "MAN"
 }
+
+###Get from hana database
+
+GET http://localhost:46433/odata/v4/MyService/trainers
+
+###POST TO HANA DB
+
+POST http://localhost:46433/odata/v4/MyService/trainers
+Content-Type: application/json
+
+{
+    "name": "Ilyas",
+      "locagtion": "Hyd",
+      "designation": "MAN"
+}
