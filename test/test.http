@@ -1,1 +1,12 @@
 GET http://localhost:4004/odata/v4/MyService/trainers
+
+###POST
+
+POST http://localhost:4004/odata/v4/MyService/trainers
+Content-Type: application/json
+
+{
+    "name": "Ilyas",
+      "locagtion": "Hyd",
+      "designation": "MAN"
+}
