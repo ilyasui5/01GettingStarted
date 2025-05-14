@@ -23,12 +23,26 @@
           "apiEndpoint": "https://api.cf.us10-001.hana.ondemand.com",
           "org": "8eca3720trial",
           "space": "dev",
-          "instance": "GettingStarted-auth",
-          "key": "GettingStarted-auth-key"
+          "instance": "01gettingStarted-auth",
+          "key": "01gettingStarted-auth-key"
         },
         "kind": "xsuaa-auth",
         "vcap": {
           "name": "auth"
+        }
+      },
+      "db": {
+        "binding": {
+          "type": "cf",
+          "apiEndpoint": "https://api.cf.us10-001.hana.ondemand.com",
+          "org": "8eca3720trial",
+          "space": "dev",
+          "instance": "01gettingStarted-db",
+          "key": "01gettingStarted-db-key"
+        },
+        "kind": "hana-cloud",
+        "vcap": {
+          "name": "db"
         }
       }
     }
