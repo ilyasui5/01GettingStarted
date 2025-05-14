@@ -13,15 +13,15 @@ Content-Type: application/json
 
 ###Get from hana database
 
-GET http://localhost:46433/odata/v4/MyService/trainers
+GET http://localhost:45041/odata/v4/MyService/trainers
 
 ###POST TO HANA DB
 
-POST http://localhost:46433/odata/v4/MyService/trainers
+POST http://localhost:45041/odata/v4/MyService/trainers
 Content-Type: application/json
 
 {
-    "name": "Ilyas",
+    "name": "Fourth",
       "locagtion": "Hyd",
       "designation": "MAN"
 }
